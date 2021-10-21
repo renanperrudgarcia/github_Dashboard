@@ -1,0 +1,50 @@
+.IssueCard {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #282a36;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.IssueCard:hover,
+.IssueCard--selected {
+  background-color: #282a36;
+}
+.IssueCard h3 {
+  margin-top: 0;
+  white-space: inherit;
+}
+
+.IssueCard__additional-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.IssueCard__headline {
+  margin-bottom: 0.5rem;
+}
+
+.IssueCard__headline a:link  {
+  margin-left: 0.3rem;
+  text-decoration: none;
+  
+}
+
+.IssueCard__headline a:visited {
+  color: rgb(255, 255, 255);
+}
+
+.IssueCard__headline a:hover {
+  color: rgb(129, 129, 129);
+}
+.IssueCard__additional-info > span {
+  display: flex;
+  align-items: center;
+}
+
+.IssueCard__additional-info > span svg {
+  margin-right: 0.3rem;
+}
+
